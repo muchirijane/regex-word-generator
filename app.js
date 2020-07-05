@@ -33,6 +33,6 @@ function replaceText () {
 };
 
 button.addEventListener('click', () => {
-    replaceText.innerHTML = `<p> This is what I matched 🔥  </p>`;
+    resultText.innerHTML = `<p class ="text-info"> This is what I matched 🔥  </p>`;
     replaceText();
 })

@@ -28,6 +28,8 @@ body{
 }
 .text-info{
     margin: 1rem 0;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 button {
