@@ -17,6 +17,14 @@ function replaceText () {
         span.innerHTML = result;
         resultText.appendChild(span);
 
+        span.addEventListener('mouseover', () =>{
+            const randomColor1 = Math.floor(Math.random() * 255);
+            const randomColor2 = Math.floor(Math.random() * 255);
+            const randomColor3 = Math.floor(Math.random() * 255);
+
+            span.style.backgroundColor = `rgba(${randomColor1}, ${randomColor2}, ${randomColor3})`;
+        });
+
 
     })
 
